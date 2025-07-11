@@ -28,10 +28,25 @@
     border: none;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 /* Header */
 
 .header{
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -92,4 +107,18 @@ nav ul li a{
 
 .banner-profile-picture{
     width: 580px;
+}
+
+/* Main Styles */
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* About Styles */
+
+.about{
+    border-radius: 10px;
+
 }
